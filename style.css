@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.one, .footer {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    padding: 5px 9em 5em 9em;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 100%;
+}
+
+.image1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #7f8288;
+    width: 100%;
+}
+
+.Secondary, .list {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.plate > button {
+    border: solid;
+    border-width: 2px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    justify-content: center;
+}
+
+.space-img {
+    display: flex;
+    padding: 70px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.images {
+    gap: 35px;
+    padding-top: 30px;
+}
+
+.images {
+    display: flex;
+}
+
+.three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 150px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.thor {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.four {
+    display: flex;
+    padding: 40px 120px 40px 120px;
+    margin: 0;
+}
+
+.plate {
+    background-color: #3882f6;
+    display: flex;
+    padding: 30px 90px;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+div.plate >div {
+    margin-right: 20px;
+}
+
+#call {
+    font-weight: bold;
+}
+
+#sign {
+    font-weight: thin;
+}
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
